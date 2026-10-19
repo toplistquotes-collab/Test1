@@ -9,5 +9,11 @@
   },
   "enabledPlugins": {
     "claude-seo@agricidaniel-claude-seo": true
+  },
+  "permissions": {
+    "allow": [
+      "Bash(*/scripts/claude-seo setup*)",
+      "Bash(*/scripts/claude-seo doctor*)"
+    ]
   }
 }
